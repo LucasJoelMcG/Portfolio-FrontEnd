@@ -5,40 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucas Joel</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icons/logo.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
   </head>
   <body>
     <header
-      class="container p-2 d-inline-flex justify-content-between cabecera"
+      class="container p-1 d-inline-flex justify-content-between cabecera"
     >
       <div>
-        <img src="" alt="logo" class="circle" />
-        <span class="">Argentina Programa</span>
+        <img src="./assets/icons/logo.png" alt="logo" class="favicon" />
+        <span>Argentina Programa</span>
       </div>
-      <div>
+      <div class="align-self-center">
         <span class="ml-auto">Hola, Usuario!</span>
         <button type="button" class="btn btn-primary">Login</button>
       </div>
     </header>
     <div class="container">
-      <div class="row p-4 justify-content-center rounded-3 border shadow-lg">
-        BANNER
+      <div
+        class="row p-4 justify-content-center rounded-3 border shadow-lg banner"
+      >
         <img src="" alt="Foto chica" class="fotoChica" />
       </div>
     </div>
     <div class="container d-flex p-5">
-      <div class="nombre col-3">
+      <h4 class="col-3 align-self-center">
         Lucas Joel <br />
         Mac Gregor
-      </div>
-      <div class="col-9">
-        <h3 class="titulo">Fullstack Developer</h3>
+      </h4>
+      <div class="col-9 centrado">
+        <h1>Fullstack Developer</h1>
         <p class="aboutText">
           Desarrollador muldisciplinario amante de la programación. Siempre
           buscando la mejor forma de cumplir objetivos.
@@ -47,21 +49,63 @@
     </div>
     <div class="container p-3">
       <h3 class="titulo">Experiencia Laboral</h3>
-      <div class="container d-flex">
-        <img src="" alt="Logo Empresa" class="rounded img-fluid col-3" />
-        <div class="col-9">
-          <h6 class="subTitulo">Empresa</h6>
-          <p class="expText">Puesto - Descripción</p>
+      <div class="container d-flex p-2">
+        <img
+          src="./assets/images/cei.jfif"
+          alt="Logo Empresa"
+          class="rounded img-fluid col-3 educLogo"
+        />
+        <div class="col-9 p-2">
+          <h6 class="subTitulo">Centro de Estudiantes de Ingeniería</h6>
+          <p class="expText">
+            Atención al Cliente - Mantenimiento <br />
+            Atención a estudiantes y mantenimiento de los equipos del lugar.
+          </p>
         </div>
       </div>
+      <div class="container d-flex p-2">
+        <img
+          src="./assets/images/sinapsis.jpg"
+          alt="Logo Empresa"
+          class="rounded img-fluid col-3 educLogo"
+        />
+        <div class="col-9 p-2">
+          <h6 class="subTitulo">Sinapsis Solutions</h6>
+          <p class="expText">
+            Soporte técnico - Desarrollo web <br />
+            Encargado del área de Reparación de PC, redes informáticas y desarrollo web.
+Desarrollo web para emprendimientos y hoteles.
+          </p>
+        </div>
     </div>
     <div class="container p-3">
       <h3 class="titulo">Educación</h3>
-      <div class="container d-flex">
-        <img src="" alt="Logo educativo" class="rounded img-fluid col-3" />
-        <div class="col-9">
-          <h6 class="subTitulo">Institución</h6>
-          <p class="expText">Titulo - Descripción</p>
+      <div class="container d-flex p-2">
+        <img
+          src="./assets/images/ingenieria.png"
+          alt="Logo educativo"
+          class="rounded educLogo col-3"
+        />
+        <div class="col-9 p-2">
+          <h6 class="subTitulo">Universidad Nacional de Mar del Plata</h6>
+          <p>
+            Ingeniería en informática. <br />
+            Estudiante de tercer año.
+          </p>
+        </div>
+      </div>
+      <div class="container d-flex p-2">
+        <img
+          src="./assets/images/cac.png"
+          alt="Logo educativo"
+          class="rounded educLogo col-3"
+        />
+        <div class="col-9 p-2">
+          <h6 class="subTitulo">Codo a Codo 4.0</h6>
+          <p>
+            Fullstack Developer. <br />
+            Estudio completado.
+          </p>
         </div>
       </div>
     </div>
@@ -106,12 +150,19 @@
     <div class="container p-3">
       <h3 class="titulo">Proyectos</h3>
       <div class="container p-2">
-        <h5 class="subtitulo col-12">Nombre del Proyecto</h5>
+        <h5 class="subtitulo col-12">Tu Tiendita</h5>
         <div class="container d-flex p-2">
-          <img src="" alt="Screenshot del proyecto" class="col-3" />
-          <p class="proyectoText col-9">Descripción del proyecto.</p>
+          <img src="./assets/images/tiendita.jpg" alt="Screenshot del proyecto" class="col-3 rounded proyLogo" />
+          <p class="proyectoText col-9 p-2">Demo de una tienda online de ropa.</p>
         </div>
-        <button type="button" class="btn btn-primary">Visitar</button>
+         <div class="align-self-end col-12">
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-success">CSS3</span>
+          <span class="badge bg-warning">TypeScript</span>
+          <span class="badge bg-danger">Angular</span>
+          <span class="badge bg-info">Bootstrap</span>
+        </div>
+        <a href="https://tu-tienda.netlify.app" target="_blank" class="btn btn-primary mt-2">Visitar</a>
       </div>
       <div class="container p-2">
         <h5 class="subtitulo col-12">Nombre del Proyecto</h5>

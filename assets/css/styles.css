@@ -1,0 +1,35 @@
+.cabecera {
+  max-width: 100%;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.fotoChica {
+  position: relative;
+  top: 25vh;
+}
+
+.skills {
+  color: gray;
+}
+
+.favicon {
+  width: 70px;
+}
+
+.banner {
+  background-image: url("../images/banner.jpeg");
+  height: 30vh;
+}
+
+.educLogo {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.proyLogo {
+  max-width: 270px;
+  max-height: 270px;
+}
