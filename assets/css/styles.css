@@ -2,13 +2,16 @@
   max-width: 100%;
 }
 
+
 .centrado {
   text-align: center;
 }
 
 .fotoChica {
-  position: relative;
-  top: 25vh;
+  max-width: 150px;
+  max-height: 150px;
+  position:relative;
+  top: 100px;
 }
 
 .skills {
@@ -21,7 +24,6 @@
 
 .banner {
   background-image: url("../images/banner.jpeg");
-  height: 30vh;
 }
 
 .educLogo {
