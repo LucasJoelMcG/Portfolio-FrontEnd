@@ -11,7 +11,7 @@
   max-width: 150px;
   max-height: 150px;
   position:relative;
-  top: 100px;
+  top: 200px;
 }
 
 .skills {
@@ -23,7 +23,10 @@
 }
 
 .banner {
-  background-image: url("../images/banner.jpeg");
+  background-image: url("../images/banner1.jpg");
+  background-size: cover;
+  height: 300px;
+  
 }
 
 .educLogo {
