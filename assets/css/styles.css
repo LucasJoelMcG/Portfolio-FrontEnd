@@ -1,3 +1,6 @@
+* {
+  font-family: Roboto;
+}
 .cabecera {
   max-width: 100%;
 }
@@ -47,9 +50,9 @@
  }
 
  .card {
-   margin: 30px auto;
-   width: 300px;
-   height: 300px;
+   margin-top: 30px;
+   width: 200px;
+   height: 200px;
    border-radius: 40px;
    cursor: pointer;
    transition: 0.4s;
@@ -62,11 +65,11 @@
  }
 
  .card .card_image img {
-   width: 80%;
+   width: 75%;
    position: relative;
-   height: 90%;
-   left: 27px;
-   top: 19px;
+   height: 75%;
+   left: 12%;
+   top: 5%;
    object-fit: cover;
    z-index: 2;
  }
@@ -83,8 +86,8 @@
 
  .card:hover {
    transform: scale(0.9, 0.9);
-   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
-     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.15),
+     -5px -5px 30px 15px rgba(0, 0, 0, 0.15);
  }
 
  .title-white {
@@ -98,17 +101,32 @@
 
  .card-1 {
   background-color: coral;
-  box-shadow: 5px 5px 30px 7px rgba(227, 79, 38, 0.5), -5px -5px 30px 7px #ff7f507a;
+  box-shadow: 5px 5px 30px 7px rgba(227, 79, 38, 0.349), -5px -5px 30px 7px #ff7f5056;
 }
 
 .card-2 {
   background-color: cornflowerblue;
-  box-shadow: 5px 5px 30px 7px #1b72ba8c, -5px -5px 30px 7px #1c88c775;
+  box-shadow: 5px 5px 30px 7px #1b72ba57, -5px -5px 30px 7px #1c88c754;
 }
 
 .card-3 {
   background-color: #ffe760;
-  box-shadow: 5px 5px 30px 7px #e9cb328c, -5px -5px 30px 7px #ffde2581;
+  box-shadow: 5px 5px 30px 7px #e9cb3257, -5px -5px 30px 7px #ffde2554;
+}
+
+.card-4 {
+  background-color:rgb(165, 0, 0);
+  box-shadow: 5px 5px 30px 7px #dd003050, -5px -5px 30px 7px #c3002e56;
+}
+
+.card-5 {
+  background: #00059bde;
+  box-shadow: 5px 5px 30px 7px #3776a954, -5px -5px 30px 7px #3776a954;
+}
+
+.card-6 {
+  background: #03094c;
+  box-shadow: 5px 5px 30px 7px #03094c57, -5px -5px 30px 7px #28aace59;
 }
 
  @media all and (max-width: 500px) {
